@@ -32,3 +32,8 @@ Regardless if you can or cannot answer the question, provide a short explanation
 
 ## Expectations from reading:
 Before starting the technical portion of the assessment I read the input file to compare my expectation now and the results of my coding challenge submission in the future. Reading the excerpt, I would give this text a sentiment score of negative-neutral leaning towards neutral. I say this due to the first paragraph seeming like a argument between books, knowledge, and being a fireman from the narrators dream. The second paragraph did not seem negative, more so "happy-sad", pity, and neutral with the description. With the combination of the dream & knowledge argument and the description of the man, **I give it a sentiment score of -.3** with -1 -> -.1 being negative, -.1 -> .1 being neutral, and .1 -> 1 being positive.
+
+## Answer & Results:
+
+
+## Resources, Documentation, & Libraries utilized
