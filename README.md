@@ -44,7 +44,7 @@ Before starting the technical portion of the assessment I read the input file to
 
 ## Answer & Results:
 * Do a pre-reading and give a personal score on the text
-* I started by importing the nltk library and utilizing VADER, tokenize, sentiment intensity analyzer (SID), and stopwords
+* I started by importing the nltk library and utilizing VADER, tokenize, sentiment intensity analyzer (SID), and stopwords to format/clean the text file so I can provide an analysis without filler words
 * I first opened the file, read the contents in, and tokenized each word into a list for further modification
 * Using the imported stopwords list, I compared my tokenized list and with the stopwords and appended any word not shared between the two lists to a new string
 * With the new cleaned string, I used SID with a function to determine the polarity of strings called ".polarity_scores(string)" to perform my sentiment analyzation
