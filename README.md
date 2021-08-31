@@ -30,10 +30,26 @@ Submissions will be evaluated holistically and based on a combination of effort,
 
 Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file. However, we highly recommend giving the challenge a try, you just might learn something new!
 
+## Resources, Documentation, & libraries  utilized to learn more about sentiment analysis
+#### https://realpython.com/python-nltk-sentiment-analysis/#using-scikit-learn-classifiers-with-nltk ####
+#### https://towardsdatascience.com/design-your-own-sentiment-score-e524308cf787 ####
+#### https://towardsdatascience.com/sentimental-analysis-using-vader-a3415fef7664 ####
+#### https://stackabuse.com/removing-stop-words-from-strings-in-python/ #### 
+#### https://www.kite.com/python/docs/nltk.word_tokenize ####
+* NLTK
+
+
 ## Expectations from reading:
 Before starting the technical portion of the assessment I read the input file to compare my expectation now and the results of my coding challenge submission in the future. Reading the excerpt, I would give this text a sentiment score of negative-neutral leaning towards neutral. I say this due to the first paragraph seeming like a argument between books, knowledge, and being a fireman from the narrators dream. The second paragraph did not seem negative, more so "happy-sad", pity, and neutral with the description. With the combination of the dream & knowledge argument and the description of the man, **I give it a sentiment score of -.3** with -1 -> -.1 being negative, -.1 -> .1 being neutral, and .1 -> 1 being positive.
 
 ## Answer & Results:
+* Do a pre-reading and give a personal score on the text
+* I started by importing the nltk library and utilizing VADER, tokenize, sentiment intensity analyzer (SID), and stopwords
+* I first opened the file, read the contents in, and tokenized each word into a list for further modification
+* Using the imported stopwords list, I compared my tokenized list and with the stopwords and appended any word not shared between the two lists to a new string
+* With the new cleaned string, I used SID with a function to determine the polarity of strings called ".polarity_scores(string)" to perform my sentiment analyzation
+* Using SID & polarity_scores I obtained {'neg': 0.133, 'neu': 0.588, 'pos': 0.278, 'compound': 0.9958} as my score
+## Reflections
+Comparing my reading expectations and my new answer it seems my answer is more of a neutral-happy sentiment than my guess of a sad-neutral. Part of this I understand as I mentioned the second paragraph being more so "happy-sad" whilst also neutral in its tone. 
 
 
-## Resources, Documentation, & Libraries utilized
